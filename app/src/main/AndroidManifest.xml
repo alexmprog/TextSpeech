@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.renovavision.textspeech">
+
+    <!--ACTION_RECOGNIZE_SPEECH – Simply takes user’s speech input and returns it to same activity-->
+    <!--LANGUAGE_MODEL_FREE_FORM – Considers input in free form English-->
+    <!--EXTRA_PROMPT – Text prompt to show to the user when asking them to speak-->
+
+
+
+    <!--<uses-permission android:name="android.permission.RECO"-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
